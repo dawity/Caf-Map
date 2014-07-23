@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @cafe_loc.latitude %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @cafe_loc.longitude %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @cafe_loc.address %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @cafe_loc.description %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @cafe_loc.title %>
+</p>
+
+<%= link_to 'Edit', edit_cafe_loc_path(@cafe_loc) %> |
+<%= link_to 'Back', cafe_locs_path %>
